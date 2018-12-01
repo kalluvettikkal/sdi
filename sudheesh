@@ -1,0 +1,2 @@
+Write-Host "Top process using max PM of your computer " -BackgroundColor Cyan -ForegroundColor Red
+Get-Process|Sort-Object PM -Descending |select -First 5
